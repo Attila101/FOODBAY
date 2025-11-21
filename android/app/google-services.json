@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "241423162937",
+    "project_id": "buynsell-b7e9f",
+    "storage_bucket": "buynsell-b7e9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241423162937:android:0dfda2cd3fd226ddc4b7e8",
+        "android_client_info": {
+          "package_name": "com.example.buy_n_sell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa_xaDRr49kDvQIehqM9Py8PbzfgxUi_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241423162937:android:4cb48514ba0c0b3fc4b7e8",
+        "android_client_info": {
+          "package_name": "com.example.buy_n_sell_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa_xaDRr49kDvQIehqM9Py8PbzfgxUi_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
