@@ -2,12 +2,12 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import '../providers/order_provider.dart';
-import '../providers/products_provider.dart';
-import '../providers/theme_provider.dart';
-import '../root_screen.dart';
-import '../screens/inner_screen/product_details.dart';
-import '../screens/inner_screen/viewed_recently.dart';
+import 'providers/order_provider.dart';
+import 'providers/products_provider.dart';
+import 'providers/theme_provider.dart';
+import 'root_screen.dart';
+import 'screens/inner_screen/product_details.dart';
+import 'screens/inner_screen/viewed_recently.dart';
 
 import 'consts/theme_data.dart';
 import 'providers/cart_provider.dart';
@@ -20,6 +20,18 @@ import 'screens/auth/register.dart';
 import 'screens/inner_screen/orders/orders_screen.dart';
 import 'screens/inner_screen/wishlist.dart';
 import 'screens/search_screen.dart';
+
+// // COMMENT MAIN, UNCOMMENT THE BLOCK BELOW, RUN ONCE, THEN REPAIR IT AGAIN
+// import 'services/seeder.dart';
+//
+// void main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   await Firebase.initializeApp();
+//
+//   await DatabaseSeeder.uploadDummyProducts();
+//
+//   runApp(const MyApp());
+// }
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

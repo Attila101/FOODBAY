@@ -34,4 +34,16 @@ class ProductModel with ChangeNotifier {
       createdAt: data['createdAt'],
     );
   }
+
+  Map<String, dynamic> toMap() {  return {
+    'productId': productId,
+    'productTitle': productTitle,
+    'productPrice': productPrice,
+    'productCategory': productCategory,
+    'productDescription': productDescription,
+    'productImage': productImage,
+    'productQuantity': productQuantity,
+    'createdAt': createdAt ?? Timestamp.now(),
+  };
+  }
 }

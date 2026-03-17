@@ -12,7 +12,7 @@ class AppNameTextWidget extends StatelessWidget {
       baseColor: Colors.purple,
       highlightColor: Colors.red,
       child: TitlesTextWidget(
-        label: "Buy N Sell",
+        label: "FOODBAY",
         fontSize: fontSize,
       ),
     );

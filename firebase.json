@@ -1,0 +1,22 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "foodbay-328",
+          "appId": "1:886710602772:android:dddcaab1dc1f0afb9bab01",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "foodbay-328",
+          "configurations": {
+            "android": "1:886710602772:android:dddcaab1dc1f0afb9bab01",
+            "web": "1:886710602772:web:c4c99a0178df9a1d9bab01"
+          }
+        }
+      }
+    }
+  }
+}
